@@ -17,8 +17,8 @@ def geraAleatorio(limite):
     return rand
 
 achados = set()
-path_populacao = r"exercicios\idades\idades.csv"
-path_amostra = r"exercicios\idades\amostra_idades.csv"
+path_populacao = r"idades.csv"
+path_amostra = r"amostra_idades.csv"
 
 ERRO_TOLERAVEL = 0.05
 TAMANHO_POPULACAO = 10000
