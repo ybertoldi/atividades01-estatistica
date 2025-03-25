@@ -9,7 +9,7 @@ while len(idades) < 10000:
     idades.append(gerar_idade())
 
 
-with open(r"exercicios\idades\idades.csv" , "w", newline= '') as f:
+with open(r"idades.csv" , "w", newline= '') as f:
     write = csv.writer(f)
     for idade in idades:
         write.writerow([idade])
