@@ -54,7 +54,7 @@ pontuacao = 0
 
 mostraTabuleiro(tabuleiro, fila_jogador, casa_jogador)
 
-t = input("quantas jogadas você que fazer? ")
+t = input("quantas jogadas você quer fazer? ")
 for i in range(int(t)):
     print("---------------------------------------------------------------------------------") 
     print(f"JOGADA {i+1}")
