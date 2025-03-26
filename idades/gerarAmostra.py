@@ -33,7 +33,7 @@ with open(path_populacao, "r") as f:
 
 amostra = []
 while len(amostra) < tamanho_amostra:
-    val = pop[geraAleatorio(tamanho_amostra)]
+    val = pop[geraAleatorio(TAMANHO_POPULACAO)]
     amostra.append(val)           
 
 with open(path_amostra, "w", newline='') as f:
