@@ -48,6 +48,8 @@ mostraTabuleiro(tabuleiro, fila_jogador, casa_jogador)
 t = input("quantas jogadas você que fazer? ")
 
 for i in range(int(t)):
+    print("---------------------------------------------------------------------------------")
+    print(f"JOGADA {i}")
     jogada()
     mostraTabuleiro(tabuleiro, fila_jogador, casa_jogador)
 
