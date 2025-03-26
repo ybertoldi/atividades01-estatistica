@@ -55,7 +55,6 @@ pontuacao = 0
 mostraTabuleiro(tabuleiro, fila_jogador, casa_jogador)
 
 t = input("quantas jogadas você que fazer? ")
-
 for i in range(int(t)):
     print("---------------------------------------------------------------------------------") 
     print(f"JOGADA {i+1}")
@@ -63,7 +62,6 @@ for i in range(int(t)):
     
     jogada()
     mostraTabuleiro(tabuleiro, fila_jogador, casa_jogador)
-
 
 ### se quiser fazer cada jogada com enter ###
 
@@ -73,7 +71,8 @@ for i in range(int(t)):
 #     print("---------------------------------------------------------------------------------") 
 #     print(f"JOGADA {i+1}")
 #     print("---------------------------------------------------------------------------------")
-    
+#     i += 1     
+#   
 #     jogada()
 #     mostraTabuleiro(tabuleiro, fila_jogador, casa_jogador)
 #     t = input("aperte enter para rodar um dado (\"q\" para sair)")
